@@ -1,0 +1,76 @@
+object FormTranslasi: TFormTranslasi
+  Left = 246
+  Height = 622
+  Top = 135
+  Width = 570
+  Caption = 'FormTranslasi'
+  ClientHeight = 622
+  ClientWidth = 570
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 360
+    Height = 15
+    Top = 48
+    Width = 34
+    Caption = 'Label1'
+  end
+  object Label2: TLabel
+    Left = 360
+    Height = 15
+    Top = 88
+    Width = 34
+    Caption = 'Label2'
+  end
+  object ButtonHorizontal: TButton
+    Left = 464
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'ButtonHorizontal'
+    TabOrder = 0
+    OnClick = ButtonHorizontalClick
+  end
+  object ButtonVertikal: TButton
+    Left = 464
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'ButtonVertikal'
+    TabOrder = 1
+    OnClick = ButtonVertikalClick
+  end
+  object ButtonDiagonal: TButton
+    Left = 464
+    Height = 25
+    Top = 320
+    Width = 75
+    Caption = 'ButtonDiagonal'
+    TabOrder = 2
+    OnClick = ButtonDiagonalClick
+  end
+  object ButtonHapus: TButton
+    Left = 464
+    Height = 25
+    Top = 352
+    Width = 75
+    Caption = 'ButtonHapus'
+    TabOrder = 3
+    OnClick = ButtonHapusClick
+  end
+  object EditX: TEdit
+    Left = 424
+    Height = 23
+    Top = 80
+    Width = 104
+    TabOrder = 4
+    Text = 'EditX'
+  end
+  object EditY: TEdit
+    Left = 424
+    Height = 23
+    Top = 40
+    Width = 104
+    TabOrder = 5
+    Text = 'EditY'
+  end
+end
